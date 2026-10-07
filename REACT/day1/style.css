@@ -1,13 +1,14 @@
-*{
+* {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 #header {
-  background-color: rgb(2, 8, 95);
+  /* background-color: rgb(2, 8, 95); */
   width: 100%;
   height: 100px;
-  color: azure;
+  background-color: #e4f6f4;
+  /* color: azure; */
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +19,7 @@
   align-items: center;
 }
 #logo {
-  background: yellow;
+  /* background: yellow; */
   height: 100px;
   width: 10%;
   color: red;
@@ -30,11 +31,12 @@ img {
   height: 100px;
 }
 .navbar-container {
-  background-color: green;
+  /* background-color: green; */
   height: 100px;
   width: 50%;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .navbar-container > ul {
@@ -45,7 +47,9 @@ img {
   display: flex;
   flex-direction: row;
 }
-
+.search-field {
+  width: 300px;
+}
 .body {
   width: 80%;
   /* background-color: cyan; */
@@ -53,7 +57,7 @@ img {
 .search {
   height: 50px;
   width: 100%;
-  background-color: blanchedalmond;
+  /* background-color: blanchedalmond; */
 }
 .res-container {
   display: flex;
@@ -63,7 +67,7 @@ img {
 }
 
 .rest-card {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   /* height: 100%; */
   width: 250px;
   display: flex;
@@ -84,10 +88,14 @@ img {
   height: 50%;
 }
 
-.rest-card > h3{
+.rest-card > h3 {
   margin: 5px;
 }
 
-.rest-card > h4{
+.rest-card > h4 {
   margin: 5px;
+}
+.Loginbtn {
+  height: 50px;
+  /* background-color: red; */
 }
