@@ -33,7 +33,7 @@ const Body = () => {
             // filter the card and update ui
             console.log(searchText);
             const filterSearch = restList.filter((res) =>
-              res.data.name.includes((searchText)),
+              res.data.name.includes(searchText),
             );
             setListOfRes(filterSearch);
           }}
